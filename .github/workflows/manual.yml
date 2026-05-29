@@ -30,7 +30,7 @@ jobs:
       id: create
       uses: atlassian/gajira-create@v2.0.1
       with:
-        project: MPDD
+        project: KAN
         issuetype: Task
         summary: |
           Github PR [Assign the ND component]  | Repo: ${{ github.repository }}  | PR# ${{github.event.number}}
